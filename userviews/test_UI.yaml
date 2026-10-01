@@ -24,9 +24,7 @@ properties:
   id: test_UI
 setting:
   properties:
-    mobileViewDisabled: ''
     userviewDescription: ''
-    mobileCacheEnabled: ''
     userviewId: test_UI
     theme:
       className: org.joget.plugin.enterprise.BuilderTheme
@@ -50,6 +48,7 @@ setting:
         dx8-dark-sidebar-navLinkIcon: rgba(255, 255, 255, 0.65)
         dx8headerFontColor: '#003A70'
         dx8-dark-subMenuColor: rgba(255, 255, 255, 0.65)
+        mobileViewDisabled: ''
         dx8navLinkIcon: '#2C5E8A'
         horizontal_menu: dark-sidebar
         global-sidebarWidth: 280px
@@ -96,6 +95,7 @@ setting:
           rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05)
         dx8-dark-sidebar-navScrollbarThumb: '#4D5F82'
         dx8contentFontColor: '#003A70'
+        mobileCacheEnabled: ''
         dx8footerBackground: '#FFFFFF'
         global-borderRadius: 6px
         dx8navDropdownBackground: '#F8FDFF'
