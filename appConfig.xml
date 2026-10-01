@@ -1,4 +1,5 @@
 <appDefinition>
+   <appId>TestApp</appId>
    <id>TestApp</id>
    <version></version>
    <name>Test app</name>
@@ -11,5 +12,6 @@
    <environmentVariableList/>
    <messageList/>
    <resourceList/>
+   <license>Td5Xw9SK8bWcU0VETBlMNHYrn03fPQS8Xa9GI0Qpg5tuSzxB+LsBog==</license>
    <createdBy>admin</createdBy>
 </appDefinition>
