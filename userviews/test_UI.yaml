@@ -12,6 +12,17 @@ categories:
       customId: welcome
       content: <p>p</p>
       style-display: none
+  - className: org.joget.plugin.enterprise.CalendarMenu
+    properties:
+      eventAfterAllRender: //console.log(view);
+      eventClick: //console.log(event); console.log(jsEvent); console.log(view);
+      dateFormat: yyyy-MM-dd
+      timeFormat: ''
+      eventAfterRender: //console.log(event); console.log(element); console.log(view);
+      eventRender: //console.log(event); console.log(element); console.log(view);
+      label: Calendar
+      id: 898F31ADDE994A15851524F09D8B30FA
+      autoHandleDateRange: 'true'
   properties:
     id: category-EE74E4F4426241BD9BC3BC73B1D24AC7
     label: <i class='fa fa-home'></i> Home
