@@ -1,3 +1,4 @@
+appId: TestApp
 id: TestApp
 version: ''
 name: Test App
@@ -10,4 +11,5 @@ pluginDefaultPropertiesList: ''
 environmentVariableList: ''
 messageList: ''
 resourceList: ''
+license: Td5Xw9SK8bWcU0VETBlMNHYrn03fPQS8Xa9GI0Qpg5tuSzxB+LsBog==
 createdBy: Beheerder01
