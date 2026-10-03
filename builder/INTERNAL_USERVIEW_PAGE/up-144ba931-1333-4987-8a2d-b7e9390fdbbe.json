@@ -1,0 +1,89 @@
+{
+    "elements": [
+        {"className": "menu-component"},
+        {
+            "elements": [
+                {
+                    "elements": [{
+                        "className": "org.joget.apps.userview.lib.component.LabelComponent",
+                        "properties": {
+                            "attr-data-events-listening": [],
+                            "style-font-weight": "500",
+                            "textContent": "<p><span style=\"font-size: 14pt;\">Welcome back, #currentUser.firstName#.<\/span><\/p>",
+                            "id": "06ED227AD2AF4906114D7573E7041E62",
+                            "customId": ""
+                        }
+                    }],
+                    "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+                    "properties": {"id": "08AC2E75FB0E46F50ACCE06E6E4C1623"}
+                },
+                {
+                    "elements": [{
+                        "className": "org.joget.apps.userview.lib.FormMenu",
+                        "properties": {
+                            "loadDataWithKey": "",
+                            "redirectUrlOnCancel": "",
+                            "actionOnCancel": "",
+                            "redirectTargetOnCancel": "top",
+                            "customFooter": "",
+                            "paramName": "",
+                            "enableOffline": "",
+                            "afterSavedReloadTarget": "true",
+                            "customId": "form",
+                            "showInPopupDialog": "",
+                            "readonly": "",
+                            "cancelButtonLabel": "",
+                            "actionAfterSaved": "",
+                            "id": "A0FE8100067D4733536BBBA12C5EBD56",
+                            "redirectUrlAfterComplete": "",
+                            "fieldPassover": "",
+                            "formId": "test_form",
+                            "customHeader": "",
+                            "fieldPassoverMethod": "append",
+                            "redirectTargetOnComplete": "",
+                            "keyName": "",
+                            "label": "Form",
+                            "messageShowAfterComplete": "",
+                            "userviewCacheDuration": "",
+                            "submitButtonLabel": "",
+                            "userviewCacheScope": "",
+                            "readonlyLabel": "true"
+                        }
+                    }],
+                    "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+                    "properties": {
+                        "attr-data-events-listening": [],
+                        "style-padding-right": "0px",
+                        "style-padding-bottom": "0px",
+                        "id": "CFACECCCDA4F4C6D2D6FBD63D9882F72",
+                        "style-padding-top": "0px",
+                        "customId": "",
+                        "style-padding-left": "0px"
+                    }
+                }
+            ],
+            "className": "org.joget.apps.userview.lib.component.ContainerComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "style-background-color": "#FFFFFF",
+                "style-padding-right": "30px",
+                "style-mobile-padding-right": "10px",
+                "style-tablet-padding-bottom": "16px",
+                "style-mobile-padding-left": "10px",
+                "customId": "",
+                "style-tablet-margin-right": "15px",
+                "style-mobile-margin-right": "0px",
+                "style-padding-left": "30px",
+                "style-padding-bottom": "30px",
+                "style-mobile-margin-left": "0px",
+                "style-tablet-padding-left": "16px",
+                "style-tablet-padding-right": "16px",
+                "id": "B6967DB7ACB94E4B81176BE0704B7B37",
+                "style-tablet-margin-left": "15px",
+                "style-border-radius": "16px"
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-144ba931-1333-4987-8a2d-b7e9390fdbbe"}
+}

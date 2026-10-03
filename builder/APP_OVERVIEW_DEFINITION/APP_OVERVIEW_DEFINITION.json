@@ -1,0 +1,46 @@
+{
+    "form:test_form": {
+        "data": [],
+        "lastModifiedDate": "Oct 1, 2026, 10:25:48\u202fAM"
+    },
+    "userview:test_UI": {
+        "data": [
+            {
+                "path": "properties.welcomeMessage",
+                "isError": false,
+                "label": "#date.EEE, d MMM yyyy#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "#date.EEE, d MMM yyyy#"
+            },
+            {
+                "path": "categories[0].menus[0].properties.content",
+                "isError": false,
+                "label": "",
+                "tool": "org.joget.apps.app.lib.WebCodingOverviewTool",
+                "content": "<p>p<\/p>"
+            },
+            {
+                "path": "categories[0].menus[0].referencePage.elements[1].elements[0].elements[0].properties.textContent",
+                "isError": false,
+                "label": "#currentUser.firstName#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "<p><span style=\"font-size: 14pt;\">Welcome back, #currentUser.firstName#.<\/span><\/p>"
+            },
+            {
+                "path": "categories[0].menus[0].referencePage.elements[1].elements[0].elements[0].properties.textContent",
+                "isError": false,
+                "label": "",
+                "tool": "org.joget.apps.app.lib.WebCodingOverviewTool",
+                "content": "<p><span style=\"font-size: 14pt;\">Welcome back, #currentUser.firstName#.<\/span><\/p>"
+            },
+            {
+                "path": "properties.welcomeMessage",
+                "isError": false,
+                "label": "#date.EEE, d MMM yyyy#",
+                "tool": "org.joget.apps.app.lib.HashVariableOverviewTool",
+                "content": "#date.EEE, d MMM yyyy#"
+            }
+        ],
+        "lastModifiedDate": "Oct 1, 2026, 10:27:27\u202fAM"
+    }
+}

@@ -1,0 +1,126 @@
+className: org.joget.apps.userview.model.Userview
+categories:
+- className: org.joget.apps.userview.model.UserviewCategory
+  menus:
+  - className: org.joget.apps.userview.lib.HtmlPage
+    properties:
+      userviewCacheDuration: ''
+      userviewCacheScope: ''
+      id: 144ba931-1333-4987-8a2d-b7e9390fdbbe
+      label: Welcome
+      enableOffline: ''
+      customId: welcome
+      content: <p>p</p>
+      style-display: none
+  - className: org.joget.plugin.enterprise.CalendarMenu
+    properties:
+      eventAfterAllRender: //console.log(view);
+      eventClick: //console.log(event); console.log(jsEvent); console.log(view);
+      dateFormat: yyyy-MM-dd
+      timeFormat: ''
+      eventAfterRender: //console.log(event); console.log(element); console.log(view);
+      eventRender: //console.log(event); console.log(element); console.log(view);
+      label: Calendar
+      id: 898F31ADDE994A15851524F09D8B30FA
+      autoHandleDateRange: 'true'
+  properties:
+    id: category-EE74E4F4426241BD9BC3BC73B1D24AC7
+    label: <i class='fa fa-home'></i> Home
+properties:
+  logoutText: Logout
+  welcomeMessage: '#date.EEE, d MMM yyyy#'
+  name: Test app
+  description: ''
+  footerMessage: Powered by Joget
+  id: test_UI
+setting:
+  properties:
+    userviewDescription: ''
+    userviewId: test_UI
+    theme:
+      className: org.joget.plugin.enterprise.BuilderTheme
+      properties:
+        dx8navBadge: '#4B6EEC'
+        global-itemPaddingBlock: 5px
+        hideSidebarUserMenu: 'true'
+        primaryColor: '#1677FF'
+        global-itemMarginBlock: 4px
+        dx8navLinkColor: '#003A70'
+        global-contentPaddingInline: 40px
+        global-controlHeight: 40px
+        dx8borderColor: rgba(5, 5, 5, 0.06)
+        dx8-dark-sidebar-navBackground: '#001529'
+        global-itemMarginInline: 8px
+        dx8secondaryFontColor: '#000000'
+        global-footerHeight: 54px
+        dx8-dark-sidebar-navActiveLinkColor: '#FFFFFF'
+        enableResponsiveSwitch: 'true'
+        dx8mainBoxBackgroundColor: '#EEF1F1'
+        dx8-dark-sidebar-navLinkIcon: rgba(255, 255, 255, 0.65)
+        dx8headerFontColor: '#003A70'
+        dx8-dark-subMenuColor: rgba(255, 255, 255, 0.65)
+        mobileViewDisabled: ''
+        dx8navLinkIcon: '#2C5E8A'
+        horizontal_menu: dark-sidebar
+        global-sidebarWidth: 280px
+        dx8-dark-sidebar-headerFontColor: '#001529'
+        global-headerPadding: 20px
+        global-padding: 16px
+        dx8headingBgColor: '#FFFFFF'
+        dx8linkColor: '#5A83A5'
+        dx8linkActiveColor: '#003A70'
+        dx8footerColor: '#252F4A'
+        dx8contentbackground: '#FFFFFF'
+        dx8-dark-sidebar-navBadge: '#FF4D4F'
+        global-headerHeight: 64px
+        dx8navBadgeText: '#FFFFFF'
+        dx8-dark-sidebar-navLinkColor: rgba(255, 255, 255, 0.65)
+        dx8background: '#F5F5F5'
+        dx8headerColor: '#ECF5F3'
+        dx8colorScheme: rgb(249, 249, 249);rgb(255, 255, 255);rgb(42, 114, 181);rgb(52,
+          143, 226);rgb(45, 53, 60);rgb(32, 37, 42)
+        dx8navBackground: '#ECF5F3'
+        global-contentWidth: 1560px
+        global-fontSize: 14px
+        dx8dropdownBackgroundColor: '#164B7D'
+        global-itemPaddingInline: 50px
+        dx8navActiveIconColor: '#4B6EEC'
+        dx8buttonColor: '#FFFFFF'
+        global-contentPaddingInlineSM: 20px
+        dx8secondaryBoxBackgroundColor: '#FAFBFC'
+        global-itemHeight: 40px
+        usingLocalFonts: 'true'
+        global-iconMarginInline: 10px
+        dx8navActiveLinkBackground: '#D3EDF7'
+        global-iconSize: 14px
+        global-lineHeight: '1.5714285714285714'
+        global-borderRadiusLG: 8px
+        dx8-dark-sidebar-navLinkBackground: '#001529'
+        dx8fieldOutlineColor: '#D6DFE8'
+        dx8fontColor: '#003A70'
+        dx8navLinkBackground: ''
+        dx8-dark-sidebar-navBadgeText: '#FFFFFF'
+        dx8generalAccentColor: '#4D799E'
+        dx8buttonBackground: '#4B6EEC'
+        global-boxShadowSecondary: 0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px
+          rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05)
+        dx8-dark-sidebar-navScrollbarThumb: '#4D5F82'
+        dx8contentFontColor: '#003A70'
+        mobileCacheEnabled: ''
+        dx8footerBackground: '#FFFFFF'
+        global-borderRadius: 6px
+        dx8navDropdownBackground: '#F8FDFF'
+        dx8-dark-sidebar-navActiveIconColor: '#FFFFFF'
+        dx8headingFontColor: rgba(0, 0, 0, 0.88)
+        dx8-dark-sidebar-headerColor: '#FFFFFF'
+        dx8primaryColor: '#1677FF'
+        dx8-dark-subMenuBgColor: '#000C17'
+        dx8-dark-sidebar-navActiveLinkBackground: '#1677FF'
+        inbox: current
+        dx8navActiveLinkColor: '#003A70'
+        global-footerPadding: 16px 50px
+    permission:
+      className: org.joget.apps.userview.lib.LoggedInUserPermission
+      properties: {
+        }
+    userviewName: Test app
