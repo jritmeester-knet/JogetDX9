@@ -1,0 +1,15 @@
+<appDefinition>
+   <id>TestApp</id>
+   <version></version>
+   <name>Test App</name>
+   <packageDefinitionList/>
+   <formDefinitionList/>
+   <userviewDefinitionList/>
+   <datalistDefinitionList/>
+   <builderDefinitionList/>
+   <pluginDefaultPropertiesList/>
+   <environmentVariableList/>
+   <messageList/>
+   <resourceList/>
+   <createdBy>Beheerder01</createdBy>
+</appDefinition>
