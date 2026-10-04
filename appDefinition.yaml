@@ -16,7 +16,6 @@ resourceList:
     appId: TestApp
     appVersion: '1'
     filesize: '642542'
-    permissionClass: ''
     permissionProperties: '{"permission": { "className": "", "properties": {}}}'
 license: Td5Xw9SK8bWcU0VETBlMNHYrn03fPQS8Xa9GI0Qpg5tuSzxB+LsBog==
 createdBy: Beheerder01
