@@ -11,7 +11,16 @@
    <pluginDefaultPropertiesList/>
    <environmentVariableList/>
    <messageList/>
-   <resourceList/>
+   <resourceList>
+      <appResource>
+         <id>CTO_Office.png</id>
+         <appId>TestApp</appId>
+         <appVersion>1</appVersion>
+         <filesize>642542</filesize>
+         <permissionClass></permissionClass>
+         <permissionProperties>{&quot;permission&quot;: { &quot;className&quot;: &quot;&quot;, &quot;properties&quot;: {}}}</permissionProperties>
+      </appResource>
+   </resourceList>
    <license>Td5Xw9SK8bWcU0VETBlMNHYrn03fPQS8Xa9GI0Qpg5tuSzxB+LsBog==</license>
    <createdBy>Beheerder01</createdBy>
 </appDefinition>
