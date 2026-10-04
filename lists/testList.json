@@ -1,18 +1,42 @@
 {
-    "rowActions": [],
-    "columns": [],
-    "name": "Test List",
-    "pageSize": "0",
-    "orderBy": "",
-    "description": "",
-    "id": "testList",
-    "filters": [],
-    "binder": {
-        "name": "",
+    "template": {
         "className": "",
         "properties": {}
     },
-    "actions": [],
+    "rowActions": [],
+    "columns": [
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "field2",
+            "id": "column_1",
+            "label": "Text Field",
+            "sortable": "false"
+        },
+        {
+            "filterable": true,
+            "hidden": "false",
+            "name": "field1",
+            "id": "column_0",
+            "label": "Text Field",
+            "sortable": "false"
+        }
+    ],
+    "pageSize": "0",
+    "orderBy": "",
+    "description": "",
+    "filters": [],
     "pageSizeSelectorOptions": "10,20,30,40,50,100",
+    "name": "Test List",
+    "id": "testList",
+    "binder": {
+        "className": "org.joget.apps.datalist.lib.FormRowDataListBinder",
+        "properties": {
+            "formDefId": "test_form",
+            "extraCondition": "",
+            "cacheRowCount": ""
+        }
+    },
+    "actions": [],
     "order": ""
 }
