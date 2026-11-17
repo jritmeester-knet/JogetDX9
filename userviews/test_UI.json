@@ -1,41 +1,87 @@
 {
     "className": "org.joget.apps.userview.model.Userview",
-    "categories": [{
-        "className": "org.joget.apps.userview.model.UserviewCategory",
-        "menus": [
-            {
+    "categories": [
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.HtmlPage",
+                    "properties": {
+                        "userviewCacheDuration": "",
+                        "userviewCacheScope": "",
+                        "id": "144ba931-1333-4987-8a2d-b7e9390fdbbe",
+                        "label": "Welcome",
+                        "enableOffline": "",
+                        "customId": "welcome",
+                        "content": "<p>p<\/p>",
+                        "style-display": "none"
+                    }
+                },
+                {
+                    "className": "org.joget.plugin.enterprise.CalendarMenu",
+                    "properties": {
+                        "eventAfterAllRender": "//console.log(view);",
+                        "eventClick": "//console.log(event); console.log(jsEvent); console.log(view);",
+                        "dateFormat": "yyyy-MM-dd",
+                        "timeFormat": "",
+                        "eventAfterRender": "//console.log(event); console.log(element); console.log(view);",
+                        "eventRender": "//console.log(event); console.log(element); console.log(view);",
+                        "label": "Calendar",
+                        "id": "898F31ADDE994A15851524F09D8B30FA",
+                        "autoHandleDateRange": "true"
+                    }
+                }
+            ],
+            "properties": {
+                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+                "label": "<i class='fa fa-home'><\/i> Home"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
                 "className": "org.joget.apps.userview.lib.HtmlPage",
                 "properties": {
-                    "userviewCacheDuration": "",
+                    "userviewCacheDuration": "20",
                     "userviewCacheScope": "",
-                    "id": "144ba931-1333-4987-8a2d-b7e9390fdbbe",
-                    "label": "Welcome",
+                    "keyName": "",
+                    "id": "domeinoverzicht_dashboard",
+                    "label": "Domeinoverzicht",
                     "enableOffline": "",
-                    "customId": "welcome",
-                    "content": "<p>p<\/p>",
-                    "style-display": "none"
+                    "customId": "",
+                    "content": "<h1><i class='fas fa-globe'><\/i> Domeinoverzicht<\/h1>\n<p>Bekijk de registratie en volledigheid van diensten, applicaties en websites binnen jouw domein.<\/p>\n<div style=\"margin-bottom:24px;\"><strong>Domein:<\/strong> <span style=\"color:#003A70;\">#currentUser.domain#<\/span> <span style=\"font-size:12px;color:#6b7280;\">(voorbeeld selectielijst als meerdere domeinen toegestaan)<\/span><\/div>\n<!-- Hier komen de secties en tegels -->"
                 }
-            },
-            {
-                "className": "org.joget.plugin.enterprise.CalendarMenu",
-                "properties": {
-                    "eventAfterAllRender": "//console.log(view);",
-                    "eventClick": "//console.log(event); console.log(jsEvent); console.log(view);",
-                    "dateFormat": "yyyy-MM-dd",
-                    "timeFormat": "",
-                    "eventAfterRender": "//console.log(event); console.log(element); console.log(view);",
-                    "eventRender": "//console.log(event); console.log(element); console.log(view);",
-                    "label": "Calendar",
-                    "id": "898F31ADDE994A15851524F09D8B30FA",
-                    "autoHandleDateRange": "true"
-                }
+            }],
+            "properties": {
+                "hide": "",
+                "comment": "",
+                "id": "domeinoverzicht",
+                "label": "Domeinoverzicht"
             }
-        ],
-        "properties": {
-            "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
-            "label": "<i class='fa fa-home'><\/i> Home"
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "userviewCacheDuration": "20",
+                    "userviewCacheScope": "",
+                    "keyName": "",
+                    "id": "mijn_acties_dashboard",
+                    "label": "Mijn acties",
+                    "enableOffline": "",
+                    "customId": "",
+                    "content": "<h1><i class='fas fa-tasks'><\/i> Mijn acties<\/h1>\n<p>Bekijk welke gegevens binnen jouw verantwoordelijkheid aandacht nodig hebben.<\/p>\n<!-- Dynamische secties afhankelijk van verantwoordelijkheden; tegels volgen -->"
+                }
+            }],
+            "properties": {
+                "hide": "",
+                "comment": "",
+                "id": "mijn_acties",
+                "label": "Mijn acties"
+            }
         }
-    }],
+    ],
     "properties": {
         "logoutText": "Logout",
         "welcomeMessage": "#date.EEE, d MMM yyyy#",
@@ -70,7 +116,7 @@
                 "dx8headerFontColor": "#003A70",
                 "dx8-dark-subMenuColor": "rgba(255, 255, 255, 0.65)",
                 "mobileViewDisabled": "",
-                "dx8navLinkIcon": "#2C5E8A",
+                "dx8navLinkIcon": "#003A70",
                 "horizontal_menu": "dark-sidebar",
                 "global-sidebarWidth": "280px",
                 "dx8-dark-sidebar-headerFontColor": "#001529",
@@ -85,15 +131,15 @@
                 "global-headerHeight": "64px",
                 "dx8navBadgeText": "#FFFFFF",
                 "dx8-dark-sidebar-navLinkColor": "rgba(255, 255, 255, 0.65)",
-                "dx8background": "#F5F5F5",
+                "dx8background": "#EEF1F8",
                 "dx8headerColor": "#ECF5F3",
                 "dx8colorScheme": "rgb(249, 249, 249);rgb(255, 255, 255);rgb(42, 114, 181);rgb(52, 143, 226);rgb(45, 53, 60);rgb(32, 37, 42)",
                 "dx8navBackground": "#ECF5F3",
                 "global-contentWidth": "1560px",
-                "global-fontSize": "14px",
+                "global-fontSize": "15px",
                 "dx8dropdownBackgroundColor": "#164B7D",
                 "global-itemPaddingInline": "50px",
-                "dx8navActiveIconColor": "#4B6EEC",
+                "dx8navActiveIconColor": "#003A70",
                 "dx8buttonColor": "#FFFFFF",
                 "global-contentPaddingInlineSM": "20px",
                 "dx8secondaryBoxBackgroundColor": "#FAFBFC",
@@ -102,21 +148,21 @@
                 "global-iconMarginInline": "10px",
                 "dx8navActiveLinkBackground": "#D3EDF7",
                 "global-iconSize": "14px",
-                "global-lineHeight": "1.5714285714285714",
+                "global-lineHeight": "1.7",
                 "global-borderRadiusLG": "8px",
                 "dx8-dark-sidebar-navLinkBackground": "#001529",
                 "dx8fieldOutlineColor": "#D6DFE8",
                 "dx8fontColor": "#003A70",
                 "dx8navLinkBackground": "",
                 "dx8-dark-sidebar-navBadgeText": "#FFFFFF",
-                "dx8generalAccentColor": "#4D799E",
+                "dx8generalAccentColor": "#1677FF",
                 "dx8buttonBackground": "#4B6EEC",
                 "global-boxShadowSecondary": "0 6px 16px 0 rgba(0, 0, 0, 0.08), 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05)",
                 "dx8-dark-sidebar-navScrollbarThumb": "#4D5F82",
                 "dx8contentFontColor": "#003A70",
                 "mobileCacheEnabled": "",
                 "dx8footerBackground": "#FFFFFF",
-                "global-borderRadius": "6px",
+                "global-borderRadius": "12px",
                 "dx8navDropdownBackground": "#F8FDFF",
                 "dx8-dark-sidebar-navActiveIconColor": "#FFFFFF",
                 "dx8headingFontColor": "rgba(0, 0, 0, 0.88)",

@@ -1,0 +1,457 @@
+elements:
+- className: menu-component
+- elements:
+  - elements:
+    - className: org.joget.apps.userview.lib.component.HeadingComponent
+      properties:
+        textContent: Diensten
+        id: heading_diensten_acties
+        tagName: h2
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 2945a99b-6805-475e-9bca-fe45c81dd283
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.apps.userview.lib.component.HeadingComponent
+      properties:
+        textContent: Applicaties
+        id: heading_applicaties_acties
+        tagName: h2
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 22526047-056e-4b69-8f13-fb2c9f224f66
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.apps.userview.lib.component.HeadingComponent
+      properties:
+        textContent: Websites
+        id: heading_websites_acties
+        tagName: h2
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 34ae09b6-083b-49d5-8679-bf227c90f7c9
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.plugin.enterprise.InformationTileComponent
+      properties:
+        template: |-
+          <!--{sampleWidth: '250px'}-->
+          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
+              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
+                  {{icon||<i class="fas fa-globe"></i>}}
+              </div>
+              <div class="stats-info py-3 col-8">
+                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
+                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
+              </div>
+          </div>
+        color: '#FDBA74'
+        icon: <i class='fas fa-align-left'></i>
+        id: tile_diensten_omschrijving
+        title: Beschrijving ontbreekt
+        value: 2 (voorbeeld)
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 7f8309a3-0f2d-4c63-817e-bf0ca7c0efa3
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.plugin.enterprise.InformationTileComponent
+      properties:
+        template: |-
+          <!--{sampleWidth: '250px'}-->
+          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
+              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
+                  {{icon||<i class="fas fa-globe"></i>}}
+              </div>
+              <div class="stats-info py-3 col-8">
+                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
+                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
+              </div>
+          </div>
+        color: '#EF4444'
+        icon: <i class='fas fa-history'></i>
+        id: tile_diensten_gegcontrole
+        title: Gegevenscontrole verlopen
+        value: 1 (voorbeeld)
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 368af647-565c-4fd3-bcbd-801aba2c6c9a
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.plugin.enterprise.InformationTileComponent
+      properties:
+        template: |-
+          <!--{sampleWidth: '250px'}-->
+          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
+              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
+                  {{icon||<i class="fas fa-globe"></i>}}
+              </div>
+              <div class="stats-info py-3 col-8">
+                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
+                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
+              </div>
+          </div>
+        color: '#FDBA74'
+        icon: <i class='fas fa-link-slash'></i>
+        id: tile_applicaties_diestkoppeling
+        title: Dienstkoppeling ontbreekt
+        value: 1 (voorbeeld)
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: a71a7ab0-57c1-4443-a1a0-a46efb111a14
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.plugin.enterprise.InformationTileComponent
+      properties:
+        template: |-
+          <!--{sampleWidth: '250px'}-->
+          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
+              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
+                  {{icon||<i class="fas fa-globe"></i>}}
+              </div>
+              <div class="stats-info py-3 col-8">
+                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
+                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
+              </div>
+          </div>
+        color: '#EF4444'
+        icon: <i class='fas fa-history'></i>
+        id: tile_applicaties_gegcontrole
+        title: Gegevenscontrole verlopen
+        value: 2 (voorbeeld)
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: c9d5a572-e350-4cba-9e5a-c4d682d0743c
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.plugin.enterprise.InformationTileComponent
+      properties:
+        template: |-
+          <!--{sampleWidth: '250px'}-->
+          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
+              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
+                  {{icon||<i class="fas fa-globe"></i>}}
+              </div>
+              <div class="stats-info py-3 col-8">
+                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
+                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
+              </div>
+          </div>
+        color: '#FDBA74'
+        icon: <i class='fas fa-universal-access'></i>
+        id: tile_websites_accessverklaring
+        title: Toegankelijkheidsverklaring ontbreekt
+        value: 1 (voorbeeld)
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 8b7cfe91-17ad-4841-ba96-020caf76239d
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.plugin.enterprise.InformationTileComponent
+      properties:
+        template: |-
+          <!--{sampleWidth: '250px'}-->
+          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
+              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
+                  {{icon||<i class="fas fa-globe"></i>}}
+              </div>
+              <div class="stats-info py-3 col-8">
+                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
+                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
+              </div>
+          </div>
+        color: '#EF4444'
+        icon: <i class='fas fa-universal-access'></i>
+        id: tile_websites_accessverlopen
+        title: Toegankelijkheidsverklaring verlopen
+        value: 1 (voorbeeld)
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: f6bc7e12-cbb7-4b0a-bf5c-932a9bafe03f
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.plugin.enterprise.InformationTileComponent
+      properties:
+        template: |-
+          <!--{sampleWidth: '250px'}-->
+          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
+              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
+                  {{icon||<i class="fas fa-globe"></i>}}
+              </div>
+              <div class="stats-info py-3 col-8">
+                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
+                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
+              </div>
+          </div>
+        color: '#EF4444'
+        icon: <i class='fas fa-history'></i>
+        id: tile_websites_gegcontrole
+        title: Gegevenscontrole verlopen
+        value: 1 (voorbeeld)
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 9981d8cc-aeb5-4e8f-8556-373ccf1dd817
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.apps.userview.lib.component.ButtonComponent
+      properties:
+        attr-target: _self
+        css-display-type: btn btn-link
+        attr-onclick: ''
+        textContent: Bekijk diensten
+        id: btn_mijn_diensten_omschrijving
+        attr-href: /web/userview/TestApp/test_UI/_/mijn_diensten_besch_ontbr_placeholder
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 1837ce79-ace6-4854-96bb-202af94d922c
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.apps.userview.lib.component.ButtonComponent
+      properties:
+        attr-target: _self
+        css-display-type: btn btn-link
+        attr-onclick: ''
+        textContent: Controle verlopen
+        id: btn_mijn_diensten_gegcontrole
+        attr-href: /web/userview/TestApp/test_UI/_/mijn_diensten_controle_verlopen_placeholder
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: cbc0f699-a437-4052-b09a-d7971b8dd7a1
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.apps.userview.lib.component.ButtonComponent
+      properties:
+        attr-target: _self
+        css-display-type: btn btn-link
+        attr-onclick: ''
+        textContent: Dienstkoppeling ontbreekt
+        id: btn_mijn_applicaties_dienstkoppeling
+        attr-href: /web/userview/TestApp/test_UI/_/mijn_applicaties_dienstkoppeling_placeholder
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 2fc74253-3095-46f8-b5d5-69a0423f1e52
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.apps.userview.lib.component.ButtonComponent
+      properties:
+        attr-target: _self
+        css-display-type: btn btn-link
+        attr-onclick: ''
+        textContent: Controle verlopen
+        id: btn_mijn_applicaties_gegcontrole
+        attr-href: /web/userview/TestApp/test_UI/_/mijn_applicaties_controle_verlopen_placeholder
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 609e6696-8b19-4162-b05b-fc6255e44e1f
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.apps.userview.lib.component.ButtonComponent
+      properties:
+        attr-target: _self
+        css-display-type: btn btn-link
+        attr-onclick: ''
+        textContent: Verklaring ontbreekt
+        id: btn_mijn_websites_accessverklaring
+        attr-href: /web/userview/TestApp/test_UI/_/mijn_websites_access_missing_placeholder
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 82a2b006-b0f9-434d-b5bd-89352060c79f
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.apps.userview.lib.component.ButtonComponent
+      properties:
+        attr-target: _self
+        css-display-type: btn btn-link
+        attr-onclick: ''
+        textContent: Verklaring verlopen
+        id: btn_mijn_websites_accessverlopen
+        attr-href: /web/userview/TestApp/test_UI/_/mijn_websites_access_verlopen_placeholder
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: dba0333e-9687-40d7-8e64-90801996c3f9
+    customId: ''
+- elements:
+  - elements:
+    - className: org.joget.apps.userview.lib.component.ButtonComponent
+      properties:
+        attr-target: _self
+        css-display-type: btn btn-link
+        attr-onclick: ''
+        textContent: Controle verlopen
+        id: btn_mijn_websites_gegcontrole
+        attr-href: /web/userview/TestApp/test_UI/_/mijn_websites_controle_verlopen_placeholder
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 5722e920-56b0-4c41-8629-548ca0662f56
+    customId: ''
+className: org.joget.apps.userview.model.UserviewPage
+properties:
+  id: up-mijn_acties_dashboard

@@ -1,0 +1,544 @@
+{
+    "elements": [
+        {"className": "menu-component"},
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.userview.lib.component.HeadingComponent",
+                    "properties": {
+                        "textContent": "Diensten",
+                        "id": "heading_diensten",
+                        "tagName": "h2"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "a6c795b7-ab23-43ae-9f70-aa0034ebcf0f",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.userview.lib.component.HeadingComponent",
+                    "properties": {
+                        "textContent": "Applicaties",
+                        "id": "heading_applicaties",
+                        "tagName": "h2"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "c1392b2e-7705-4a0f-bc9b-65f68f0548cc",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.userview.lib.component.HeadingComponent",
+                    "properties": {
+                        "textContent": "Websites",
+                        "id": "heading_websites",
+                        "tagName": "h2"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "ede5662f-c883-4e93-a26c-07ae36bf0773",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                    "properties": {
+                        "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
+                        "color": "#1677FF",
+                        "icon": "<i class='fas fa-cubes'><\/i>",
+                        "id": "tile_diensten_totaal",
+                        "title": "Totaal diensten",
+                        "value": "123 (voorbeeld)"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "8993c2e9-d090-4802-91d9-d396fd11b49f",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                    "properties": {
+                        "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
+                        "color": "#FDBA74",
+                        "icon": "<i class='fas fa-user-slash'><\/i>",
+                        "id": "tile_diensten_geen_verantwoordelijke",
+                        "title": "Geen verantwoordelijke",
+                        "value": "6 (voorbeeld)"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "0a608adc-718b-4376-9a39-41aae2dc315d",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                    "properties": {
+                        "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
+                        "color": "#FDBA74",
+                        "icon": "<i class='fas fa-exclamation-circle'><\/i>",
+                        "id": "tile_diensten_onvolledig",
+                        "title": "Gegevens onvolledig",
+                        "value": "14 (voorbeeld)"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "17fbea1b-5f79-42fb-9544-91be50838fb5",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                    "properties": {
+                        "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
+                        "color": "#1677FF",
+                        "icon": "<i class='fas fa-layer-group'><\/i>",
+                        "id": "tile_applicaties_totaal",
+                        "title": "Totaal applicaties",
+                        "value": "88 (voorbeeld)"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "740545c5-a855-4991-a4b7-74d19e27a7cc",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                    "properties": {
+                        "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
+                        "color": "#FDBA74",
+                        "icon": "<i class='fas fa-user-slash'><\/i>",
+                        "id": "tile_applicaties_geen_verantwoordelijke",
+                        "title": "Geen verantwoordelijke",
+                        "value": "5 (voorbeeld)"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "a73a609b-4b4f-43b7-b17e-16fbe61d3713",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                    "properties": {
+                        "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
+                        "color": "#FDBA74",
+                        "icon": "<i class='fas fa-exclamation-circle'><\/i>",
+                        "id": "tile_applicaties_onvolledig",
+                        "title": "Gegevens onvolledig",
+                        "value": "12 (voorbeeld)"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "30d74a19-6cde-41d3-9c16-8b47622d2d94",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                    "properties": {
+                        "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
+                        "color": "#1677FF",
+                        "icon": "<i class='fas fa-globe'><\/i>",
+                        "id": "tile_websites_totaal",
+                        "title": "Totaal websites",
+                        "value": "41 (voorbeeld)"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "dc221f9b-2436-4a1c-86c6-6bdc7ce23d66",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                    "properties": {
+                        "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
+                        "color": "#FDBA74",
+                        "icon": "<i class='fas fa-user-slash'><\/i>",
+                        "id": "tile_websites_geen_verantwoordelijke",
+                        "title": "Geen verantwoordelijke",
+                        "value": "3 (voorbeeld)"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "6c1ed082-8f3e-4771-bc90-cda52486c60b",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.plugin.enterprise.InformationTileComponent",
+                    "properties": {
+                        "template": "<!--{sampleWidth: '250px'}-->\n<div class=\"card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0\" style=\"background-color:{{color||#348fe2}}; color:#fff;\">\n    <div class=\"stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start\" style=\"background:rgba(0,0,0,.4); font-size: 48px; color: #fff;\">\n        {{icon||<i class=\"fas fa-globe\"><\/i>}}\n    <\/div>\n    <div class=\"stats-info py-3 col-8\">\n        <p style=\"font-size: 24px; font-weight: 600; margin-bottom: 10px;\">{{value||3,291,922}}<\/p>\n        <h4 style=\"font-size: 12px;margin: 5px 0;\">{{title||TOTAL VISITORS}}<\/h4>\n    <\/div>\n<\/div>",
+                        "color": "#FDBA74",
+                        "icon": "<i class='fas fa-exclamation-circle'><\/i>",
+                        "id": "tile_websites_onvolledig",
+                        "title": "Gegevens onvolledig",
+                        "value": "7 (voorbeeld)"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "59705c3d-737d-44dc-9a48-edbdca7931df",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.userview.lib.component.ButtonComponent",
+                    "properties": {
+                        "attr-target": "_self",
+                        "css-display-type": "btn btn-link",
+                        "attr-onclick": "",
+                        "textContent": "Naar dienstenlijst",
+                        "id": "btn_diensten_totaal",
+                        "attr-href": "/web/userview/TestApp/test_UI/_/dienstdatalist_placeholder"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "9e97f5e9-4d2b-4706-8ee3-806942a735bc",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.userview.lib.component.ButtonComponent",
+                    "properties": {
+                        "attr-target": "_self",
+                        "css-display-type": "btn btn-link",
+                        "attr-onclick": "",
+                        "textContent": "Zonder verantwoordelijke",
+                        "id": "btn_diensten_geen_verant",
+                        "attr-href": "/web/userview/TestApp/test_UI/_/diensten_ontbrekendverant_placeholder"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "13e3c070-ab72-4ee0-9cd8-2fcf336dc92d",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.userview.lib.component.ButtonComponent",
+                    "properties": {
+                        "attr-target": "_self",
+                        "css-display-type": "btn btn-link",
+                        "attr-onclick": "",
+                        "textContent": "Onvolledige gegevens",
+                        "id": "btn_diensten_onvolledig",
+                        "attr-href": "/web/userview/TestApp/test_UI/_/diensten_onvolledig_placeholder"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "ef7b1f5c-cb04-45f7-b401-2ab4c95af08b",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.userview.lib.component.ButtonComponent",
+                    "properties": {
+                        "attr-target": "_self",
+                        "css-display-type": "btn btn-link",
+                        "attr-onclick": "",
+                        "textContent": "Naar applicatielijst",
+                        "id": "btn_applicaties_totaal",
+                        "attr-href": "/web/userview/TestApp/test_UI/_/applicatiedatalist_placeholder"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "fe1e8e4e-ac4f-4756-b9da-b1371a36b154",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.userview.lib.component.ButtonComponent",
+                    "properties": {
+                        "attr-target": "_self",
+                        "css-display-type": "btn btn-link",
+                        "attr-onclick": "",
+                        "textContent": "Zonder verantwoordelijke",
+                        "id": "btn_applicaties_geen_verant",
+                        "attr-href": "/web/userview/TestApp/test_UI/_/applicaties_ontbrekendverant_placeholder"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "655ee8a7-9f43-4381-8c89-d4c2f09bf232",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.userview.lib.component.ButtonComponent",
+                    "properties": {
+                        "attr-target": "_self",
+                        "css-display-type": "btn btn-link",
+                        "attr-onclick": "",
+                        "textContent": "Onvolledige gegevens",
+                        "id": "btn_applicaties_onvolledig",
+                        "attr-href": "/web/userview/TestApp/test_UI/_/applicaties_onvolledig_placeholder"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "3285ff44-162a-4e0f-abff-3960b23f1363",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.userview.lib.component.ButtonComponent",
+                    "properties": {
+                        "attr-target": "_self",
+                        "css-display-type": "btn btn-link",
+                        "attr-onclick": "",
+                        "textContent": "Naar websitelist",
+                        "id": "btn_websites_totaal",
+                        "attr-href": "/web/userview/TestApp/test_UI/_/websitedatalist_placeholder"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "88c9f3fe-6bfd-4d3e-bbb7-3ec2ad1debf1",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.userview.lib.component.ButtonComponent",
+                    "properties": {
+                        "attr-target": "_self",
+                        "css-display-type": "btn btn-link",
+                        "attr-onclick": "",
+                        "textContent": "Zonder verantwoordelijke",
+                        "id": "btn_websites_geen_verant",
+                        "attr-href": "/web/userview/TestApp/test_UI/_/websites_ontbrekendverant_placeholder"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "24e02885-bd9f-49d6-a930-c75d3a10cd1d",
+                "customId": ""
+            }
+        },
+        {
+            "elements": [{
+                "elements": [{
+                    "className": "org.joget.apps.userview.lib.component.ButtonComponent",
+                    "properties": {
+                        "attr-target": "_self",
+                        "css-display-type": "btn btn-link",
+                        "attr-onclick": "",
+                        "textContent": "Onvolledige gegevens",
+                        "id": "btn_websites_onvolledig",
+                        "attr-href": "/web/userview/TestApp/test_UI/_/websites_onvolledig_placeholder"
+                    }
+                }],
+                "className": "org.joget.apps.userview.lib.component.ColumnComponent",
+                "properties": {}
+            }],
+            "className": "org.joget.apps.userview.lib.component.ColumnsComponent",
+            "properties": {
+                "attr-data-events-listening": [],
+                "gutter": "5px",
+                "columns": [{"style-max-width": ""}],
+                "css-mobile-stack-columns": "true",
+                "id": "51738258-05be-46fa-a5b7-05d851843885",
+                "customId": ""
+            }
+        }
+    ],
+    "className": "org.joget.apps.userview.model.UserviewPage",
+    "properties": {"id": "up-domeinoverzicht_dashboard"}
+}
