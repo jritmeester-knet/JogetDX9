@@ -1,7 +1,39 @@
 elements:
 - className: menu-component
+  properties:
+    userviewCacheDuration: '20'
+    userviewCacheScope: ''
+    keyName: ''
+    id: domeinoverzicht_dashboard
+    label: Domeinoverzicht
+    enableOffline: ''
+    iconIncluded: false
+    customId: ''
+    content: |-
+      <h1><i class="fas fa-globe"></i> Domeinoverzicht</h1>
+      <p>Bekijk de registratie en volledigheid van diensten, applicaties en websites binnen jouw domein.</p>
+      <div style="margin-bottom: 24px;"><strong>Domein:</strong> <span style="color: #003a70;">#currentUser.domain#</span> <span style="font-size: 12px; color: #6b7280;">(voorbeeld selectielijst als meerdere domeinen toegestaan)</span></div>
+      <!-- Hier komen de secties en tegels -->
 - elements:
   - elements:
+    - className: org.joget.plugin.enterprise.InformationTileComponent
+      properties:
+        template: |-
+          <!--{sampleWidth: '250px'}-->
+          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
+              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
+                  {{icon||<i class="fas fa-globe"></i>}}
+              </div>
+              <div class="stats-info py-3 col-8">
+                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
+                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
+              </div>
+          </div>
+        color: '#1677FF'
+        icon: <i class='fas fa-cubes'></i>
+        id: tile_diensten_totaal
+        title: Totaal diensten
+        value: 123 (voorbeeld)
     - className: org.joget.apps.userview.lib.component.HeadingComponent
       properties:
         textContent: Diensten
@@ -22,6 +54,60 @@ elements:
     customId: ''
 - elements:
   - elements:
+    - className: org.joget.plugin.enterprise.InformationTileComponent
+      properties:
+        template: |-
+          <!--{sampleWidth: '250px'}-->
+          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
+              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
+                  {{icon||<i class="fas fa-globe"></i>}}
+              </div>
+              <div class="stats-info py-3 col-8">
+                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
+                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
+              </div>
+          </div>
+        color: '#1677FF'
+        icon: <i class='fas fa-layer-group'></i>
+        id: tile_applicaties_totaal
+        title: Totaal applicaties
+        value: 88 (voorbeeld)
+    - className: org.joget.plugin.enterprise.InformationTileComponent
+      properties:
+        template: |-
+          <!--{sampleWidth: '250px'}-->
+          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
+              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
+                  {{icon||<i class="fas fa-globe"></i>}}
+              </div>
+              <div class="stats-info py-3 col-8">
+                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
+                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
+              </div>
+          </div>
+        color: '#FDBA74'
+        icon: <i class='fas fa-user-slash'></i>
+        id: tile_diensten_geen_verantwoordelijke
+        title: Geen verantwoordelijke
+        value: 6 (voorbeeld)
+    - className: org.joget.plugin.enterprise.InformationTileComponent
+      properties:
+        template: |-
+          <!--{sampleWidth: '250px'}-->
+          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
+              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
+                  {{icon||<i class="fas fa-globe"></i>}}
+              </div>
+              <div class="stats-info py-3 col-8">
+                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
+                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
+              </div>
+          </div>
+        color: '#FDBA74'
+        icon: <i class='fas fa-exclamation-circle'></i>
+        id: tile_diensten_onvolledig
+        title: Gegevens onvolledig
+        value: 14 (voorbeeld)
     - className: org.joget.apps.userview.lib.component.HeadingComponent
       properties:
         textContent: Applicaties
@@ -42,6 +128,42 @@ elements:
     customId: ''
 - elements:
   - elements:
+    - className: org.joget.plugin.enterprise.InformationTileComponent
+      properties:
+        template: |-
+          <!--{sampleWidth: '250px'}-->
+          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
+              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
+                  {{icon||<i class="fas fa-globe"></i>}}
+              </div>
+              <div class="stats-info py-3 col-8">
+                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
+                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
+              </div>
+          </div>
+        color: '#FDBA74'
+        icon: <i class='fas fa-user-slash'></i>
+        id: tile_applicaties_geen_verantwoordelijke
+        title: Geen verantwoordelijke
+        value: 5 (voorbeeld)
+    - className: org.joget.plugin.enterprise.InformationTileComponent
+      properties:
+        template: |-
+          <!--{sampleWidth: '250px'}-->
+          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
+              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
+                  {{icon||<i class="fas fa-globe"></i>}}
+              </div>
+              <div class="stats-info py-3 col-8">
+                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
+                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
+              </div>
+          </div>
+        color: '#FDBA74'
+        icon: <i class='fas fa-exclamation-circle'></i>
+        id: tile_applicaties_onvolledig
+        title: Gegevens onvolledig
+        value: 12 (voorbeeld)
     - className: org.joget.apps.userview.lib.component.HeadingComponent
       properties:
         textContent: Websites
@@ -76,204 +198,6 @@ elements:
               </div>
           </div>
         color: '#1677FF'
-        icon: <i class='fas fa-cubes'></i>
-        id: tile_diensten_totaal
-        title: Totaal diensten
-        value: 123 (voorbeeld)
-    className: org.joget.apps.userview.lib.component.ColumnComponent
-    properties: {
-      }
-  className: org.joget.apps.userview.lib.component.ColumnsComponent
-  properties:
-    attr-data-events-listening: [
-      ]
-    gutter: 5px
-    columns:
-    - style-max-width: ''
-    css-mobile-stack-columns: 'true'
-    id: 8993c2e9-d090-4802-91d9-d396fd11b49f
-    customId: ''
-- elements:
-  - elements:
-    - className: org.joget.plugin.enterprise.InformationTileComponent
-      properties:
-        template: |-
-          <!--{sampleWidth: '250px'}-->
-          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
-              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
-                  {{icon||<i class="fas fa-globe"></i>}}
-              </div>
-              <div class="stats-info py-3 col-8">
-                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
-                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
-              </div>
-          </div>
-        color: '#FDBA74'
-        icon: <i class='fas fa-user-slash'></i>
-        id: tile_diensten_geen_verantwoordelijke
-        title: Geen verantwoordelijke
-        value: 6 (voorbeeld)
-    className: org.joget.apps.userview.lib.component.ColumnComponent
-    properties: {
-      }
-  className: org.joget.apps.userview.lib.component.ColumnsComponent
-  properties:
-    attr-data-events-listening: [
-      ]
-    gutter: 5px
-    columns:
-    - style-max-width: ''
-    css-mobile-stack-columns: 'true'
-    id: 0a608adc-718b-4376-9a39-41aae2dc315d
-    customId: ''
-- elements:
-  - elements:
-    - className: org.joget.plugin.enterprise.InformationTileComponent
-      properties:
-        template: |-
-          <!--{sampleWidth: '250px'}-->
-          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
-              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
-                  {{icon||<i class="fas fa-globe"></i>}}
-              </div>
-              <div class="stats-info py-3 col-8">
-                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
-                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
-              </div>
-          </div>
-        color: '#FDBA74'
-        icon: <i class='fas fa-exclamation-circle'></i>
-        id: tile_diensten_onvolledig
-        title: Gegevens onvolledig
-        value: 14 (voorbeeld)
-    className: org.joget.apps.userview.lib.component.ColumnComponent
-    properties: {
-      }
-  className: org.joget.apps.userview.lib.component.ColumnsComponent
-  properties:
-    attr-data-events-listening: [
-      ]
-    gutter: 5px
-    columns:
-    - style-max-width: ''
-    css-mobile-stack-columns: 'true'
-    id: 17fbea1b-5f79-42fb-9544-91be50838fb5
-    customId: ''
-- elements:
-  - elements:
-    - className: org.joget.plugin.enterprise.InformationTileComponent
-      properties:
-        template: |-
-          <!--{sampleWidth: '250px'}-->
-          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
-              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
-                  {{icon||<i class="fas fa-globe"></i>}}
-              </div>
-              <div class="stats-info py-3 col-8">
-                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
-                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
-              </div>
-          </div>
-        color: '#1677FF'
-        icon: <i class='fas fa-layer-group'></i>
-        id: tile_applicaties_totaal
-        title: Totaal applicaties
-        value: 88 (voorbeeld)
-    className: org.joget.apps.userview.lib.component.ColumnComponent
-    properties: {
-      }
-  className: org.joget.apps.userview.lib.component.ColumnsComponent
-  properties:
-    attr-data-events-listening: [
-      ]
-    gutter: 5px
-    columns:
-    - style-max-width: ''
-    css-mobile-stack-columns: 'true'
-    id: 740545c5-a855-4991-a4b7-74d19e27a7cc
-    customId: ''
-- elements:
-  - elements:
-    - className: org.joget.plugin.enterprise.InformationTileComponent
-      properties:
-        template: |-
-          <!--{sampleWidth: '250px'}-->
-          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
-              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
-                  {{icon||<i class="fas fa-globe"></i>}}
-              </div>
-              <div class="stats-info py-3 col-8">
-                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
-                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
-              </div>
-          </div>
-        color: '#FDBA74'
-        icon: <i class='fas fa-user-slash'></i>
-        id: tile_applicaties_geen_verantwoordelijke
-        title: Geen verantwoordelijke
-        value: 5 (voorbeeld)
-    className: org.joget.apps.userview.lib.component.ColumnComponent
-    properties: {
-      }
-  className: org.joget.apps.userview.lib.component.ColumnsComponent
-  properties:
-    attr-data-events-listening: [
-      ]
-    gutter: 5px
-    columns:
-    - style-max-width: ''
-    css-mobile-stack-columns: 'true'
-    id: a73a609b-4b4f-43b7-b17e-16fbe61d3713
-    customId: ''
-- elements:
-  - elements:
-    - className: org.joget.plugin.enterprise.InformationTileComponent
-      properties:
-        template: |-
-          <!--{sampleWidth: '250px'}-->
-          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
-              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
-                  {{icon||<i class="fas fa-globe"></i>}}
-              </div>
-              <div class="stats-info py-3 col-8">
-                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
-                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
-              </div>
-          </div>
-        color: '#FDBA74'
-        icon: <i class='fas fa-exclamation-circle'></i>
-        id: tile_applicaties_onvolledig
-        title: Gegevens onvolledig
-        value: 12 (voorbeeld)
-    className: org.joget.apps.userview.lib.component.ColumnComponent
-    properties: {
-      }
-  className: org.joget.apps.userview.lib.component.ColumnsComponent
-  properties:
-    attr-data-events-listening: [
-      ]
-    gutter: 5px
-    columns:
-    - style-max-width: ''
-    css-mobile-stack-columns: 'true'
-    id: 30d74a19-6cde-41d3-9c16-8b47622d2d94
-    customId: ''
-- elements:
-  - elements:
-    - className: org.joget.plugin.enterprise.InformationTileComponent
-      properties:
-        template: |-
-          <!--{sampleWidth: '250px'}-->
-          <div class="card flex-row row align-items-center align-items-stretch border-0 ms-0 me-0" style="background-color:{{color||#348fe2}}; color:#fff;">
-              <div class="stats-icon col-4 py-3 d-flex align-items-center justify-content-center rounded-start" style="background:rgba(0,0,0,.4); font-size: 48px; color: #fff;">
-                  {{icon||<i class="fas fa-globe"></i>}}
-              </div>
-              <div class="stats-info py-3 col-8">
-                  <p style="font-size: 24px; font-weight: 600; margin-bottom: 10px;">{{value||3,291,922}}</p>
-                  <h4 style="font-size: 12px;margin: 5px 0;">{{title||TOTAL VISITORS}}</h4>
-              </div>
-          </div>
-        color: '#1677FF'
         icon: <i class='fas fa-globe'></i>
         id: tile_websites_totaal
         title: Totaal websites
@@ -289,7 +213,7 @@ elements:
     columns:
     - style-max-width: ''
     css-mobile-stack-columns: 'true'
-    id: dc221f9b-2436-4a1c-86c6-6bdc7ce23d66
+    id: 8993c2e9-d090-4802-91d9-d396fd11b49f
     customId: ''
 - elements:
   - elements:
@@ -322,7 +246,7 @@ elements:
     columns:
     - style-max-width: ''
     css-mobile-stack-columns: 'true'
-    id: 6c1ed082-8f3e-4771-bc90-cda52486c60b
+    id: 0a608adc-718b-4376-9a39-41aae2dc315d
     customId: ''
 - elements:
   - elements:
@@ -344,6 +268,102 @@ elements:
         id: tile_websites_onvolledig
         title: Gegevens onvolledig
         value: 7 (voorbeeld)
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 17fbea1b-5f79-42fb-9544-91be50838fb5
+    customId: ''
+- elements:
+  - elements: [
+      ]
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 740545c5-a855-4991-a4b7-74d19e27a7cc
+    customId: ''
+- elements:
+  - elements: [
+      ]
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: a73a609b-4b4f-43b7-b17e-16fbe61d3713
+    customId: ''
+- elements:
+  - elements: [
+      ]
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 30d74a19-6cde-41d3-9c16-8b47622d2d94
+    customId: ''
+- elements:
+  - elements: [
+      ]
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: dc221f9b-2436-4a1c-86c6-6bdc7ce23d66
+    customId: ''
+- elements:
+  - elements: [
+      ]
+    className: org.joget.apps.userview.lib.component.ColumnComponent
+    properties: {
+      }
+  className: org.joget.apps.userview.lib.component.ColumnsComponent
+  properties:
+    attr-data-events-listening: [
+      ]
+    gutter: 5px
+    columns:
+    - style-max-width: ''
+    css-mobile-stack-columns: 'true'
+    id: 6c1ed082-8f3e-4771-bc90-cda52486c60b
+    customId: ''
+- elements:
+  - elements: [
+      ]
     className: org.joget.apps.userview.lib.component.ColumnComponent
     properties: {
       }
